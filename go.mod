@@ -6,7 +6,7 @@ toolchain go1.22.3
 
 require (
 	github.com/gnolang/gno v0.1.0-nightly.20240523.0.20240531193303-edb321f85bef
-	github.com/grepsuzette/gnAsteroid v0.0.0-20240719121603-5aca5ef29858
+	github.com/grepsuzette/gnAsteroid v0.0.0-20240722073756-be9cabb29e9e
 )
 
 require (
@@ -58,3 +58,5 @@ require (
 )
 
 replace github.com/gnolang/gno => github.com/grepsuzette/gno v0.0.0-20240718091431-328ba2fde1b9
+
+// replace github.com/grepsuzette/gnAsteroid => /me/code/go/src/github.com/grepsuzette/gnAsteroid

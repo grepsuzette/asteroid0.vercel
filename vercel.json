@@ -1,5 +1,12 @@
 {
+  "framework": null,
   "github": {
     "silent": true
-  }
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/api/index.go"
+    }
+  ]
 }
