@@ -1,11 +1,6 @@
-This template shows how easily an asteroid can be deployed to [Vercel](https://vercel.com):
+This is a short demonstration of how to deploy an gno asteroid to [Vercel](https://vercel.com):
 
-```
-npm install vercel
-git clone --recurse-submodules https://github.com/gnAsteroid/gnosmos.vercel
-cd gnosmos.vercel
-vercel
-```
+After cloning this repository (with `git clone --recurse-submodule https://github.com/gnAsteroid/gnosmos.vercel`) and `npm install vercel`, go in its directory and type `vercel`.
 
 The deployment status will appear in the console.
 
@@ -13,8 +8,9 @@ The deployment status will appear in the console.
 
 Place your asteroid as a subdirectory of the `api` folder.
 
-It can be named as you want, but it needs 
-to be a directory in `api/`. There seems currently no work around 
+It can be named as you want, but it needs to be a directory in `api/`. 
+
+There seems to be currently no work around 
 this is because the asteroid is to be embedded with `go:embed`.
 
 ## Credits
