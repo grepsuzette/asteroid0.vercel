@@ -5,16 +5,17 @@ import (
 	"io/fs"
 	"net/http"
 
-	"github.com/gnolang/gno/gno.land/pkg/gnoweb"
-	"github.com/grepsuzette/gnAsteroid"
+	"github.com/gnAsteroid/gno/gno.land/pkg/gnoweb"
+	"github.com/gnAsteroid/gnAsteroid"
 )
 
-//go:embed gnosmos
+// Below embed name should be the same as the subdirectory
+//go:embed asteroid
 var embedFS embed.FS
 var app http.Handler
 
-const embedRelName = "gnosmos" // to "chroot". Whatever name was after your go:embed directive.
-const asteroidName = "gnAsteroid"
+const embedRelName = "asteroid" // this must be the same as the name in go:embed above
+const asteroidName = "gnAsteroid" // change this to your asteroid name
 
 func init() {
 	if asteroid, e := fs.Sub(embedFS, embedRelName); e != nil {

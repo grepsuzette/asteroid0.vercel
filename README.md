@@ -1,6 +1,6 @@
 This is a short demonstration of how to deploy an gno asteroid to [Vercel](https://vercel.com):
 
-After cloning this repository (with `git clone --recurse-submodule https://github.com/gnAsteroid/gnosmos.vercel`) and `npm install vercel`, go in its directory and type `vercel`.
+After cloning this repository (with `git clone --recurse-submodule https://github.com/gnAsteroid/asteroid0.vercel`) and `npm install vercel`, go in its directory and type `vercel`.
 
 The deployment status will appear in the console.
 
