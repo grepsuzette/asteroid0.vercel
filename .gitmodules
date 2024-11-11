@@ -1,3 +1,3 @@
-[submodule "api/gnosmos"]
-	path = api/gnosmos
-	url = git@github.com:grepsuzette/gnosmos.git
+[submodule "api/asteroid"]
+	path = api/asteroid
+	url = git@github.com:gnAsteroid/asteroid0.git
